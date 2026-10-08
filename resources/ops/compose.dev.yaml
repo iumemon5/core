@@ -1,0 +1,7 @@
+services:
+    app:
+        ports:
+            - "8080:80"
+        volumes:
+            - .:/var/www/html
+            - ./resources/ops/configuration/php/gibbon.ini:/usr/local/etc/php/conf.d/gibbon.ini:ro

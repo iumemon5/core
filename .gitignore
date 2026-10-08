@@ -38,3 +38,6 @@ var/*
 
 # Ignore node_modules folder
 node_modules
+
+# Docker environment, never commit real credentials
+.env
